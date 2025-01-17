@@ -7,8 +7,8 @@ class FoodDetailViewModel: ObservableObject {
     @Published var errorMessage: String?
 
     // Consumer Key and Consumer Secret from FatSecret
-    private let consumerKey = "1913e819073e4c3187bcd164640df2e0"
-    private let consumerSecret = "07b19f21626f4d238e7ac81da32f5f17"
+    private let consumerKey = ""
+    private let consumerSecret = ""
 
     func fetchFoodDetail(foodId: Int) {
         isLoading = true
